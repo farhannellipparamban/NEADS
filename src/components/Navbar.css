@@ -54,7 +54,7 @@
   position: relative;
   padding: 0.5rem 0;
   transition: color 0.3s ease;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .navbar-link:hover {
@@ -62,7 +62,7 @@
 }
 
 .navbar-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -84,7 +84,7 @@
   transition: all 0.3s ease;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.95rem;
 }
 
@@ -129,7 +129,7 @@
 
 .navbar-mobile-icon::before,
 .navbar-mobile-icon::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 26px;
   height: 2px;
@@ -189,7 +189,7 @@
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   position: relative;
   padding-left: 1.5rem;
 }
@@ -199,7 +199,7 @@
 }
 
 .navbar-mobile-link::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -236,12 +236,37 @@
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
+/* Profile Link (Desktop) */
+.navbar-profile-link {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-profile-link:hover {
+  color: #2563eb;
+}
+
+/* Profile Link (Mobile) */
+.navbar-mobile-profile-link {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-mobile-profile-link:hover {
+  color: #2563eb;
+}
+
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .navbar-container {
     padding: 0 3rem 0 4rem;
   }
-  
+
   .navbar-links {
     gap: 1.5rem;
   }
@@ -251,7 +276,7 @@
   .navbar-container {
     padding: 0 2rem;
   }
-  
+
   .navbar-links {
     display: none;
   }
@@ -268,7 +293,7 @@
   .navbar-scrolled .navbar-logo-img {
     height: 2.75rem;
   }
-  
+
   .navbar-mobile-menu {
     padding: 5rem 2rem;
   }
@@ -278,16 +303,16 @@
   .navbar-container {
     padding: 0 1.5rem;
   }
-  
+
   .navbar-logo-img {
     height: 2.75rem;
   }
-  
+
   .navbar-mobile-link {
     font-size: 1.5rem;
     padding-left: 1rem;
   }
-  
+
   .navbar-mobile-contact-button {
     padding: 0.9rem 2rem;
     font-size: 1rem;
@@ -300,9 +325,8 @@
     padding-left: 8rem;
     margin-left: -4rem;
   }
-  
+
   .navbar-logo-img {
     margin-left: -2rem;
   }
 }
-
