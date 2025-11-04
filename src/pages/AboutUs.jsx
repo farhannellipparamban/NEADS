@@ -59,7 +59,7 @@ const About = () => {
       </section>
 
       {/* ===== Who We Are ===== */}
-      <section className="py-24 lg:py-32 -mt-20 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-24 lg:py-32 -mt-28 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div
             initial="hidden"
@@ -200,13 +200,13 @@ const About = () => {
               {
                 title: "Our Vision",
                 icon: "M15 12a3 3 0 11-6 0 3 3 0 016 0z M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z",
-                color: "indigo",
+                color: "blue",
                 text: "A society where every individual contributes to and benefits from sustainable growth and empowerment.",
               },
               {
                 title: "Our Values",
                 icon: "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
-                color: "purple",
+                color: "blue",
                 text: [
                   "Integrity",
                   "Inclusiveness",
