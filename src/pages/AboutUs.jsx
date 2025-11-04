@@ -59,7 +59,7 @@ const About = () => {
       </section>
 
       {/* ===== Who We Are ===== */}
-      <section className="py-24 lg:py-32 -mt-28 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-24 lg:py-32 -mt-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div
             initial="hidden"
